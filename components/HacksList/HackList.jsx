@@ -15,6 +15,26 @@ function HackList (){
                             <button><span>🔝</span></button>
                         </div>
                     </div>
+
+                    <div className={styles.hacksContainer}>
+                        <h1>Top 2 hack</h1>
+
+                        <p>Don t spend hours designing and building your landing page. Use a tool like https://www.daisylanding.com. With this app, I can get 95% of my landing page built in minutes. Plus, it is already responsive.</p>
+                        <div>
+                            <span className="">By lublubxt 3 days ago</span>
+                            <button><span>🔝</span></button>
+                        </div>
+                    </div>
+
+                    <div className={styles.hacksContainer}>
+                        <h1>Top 3 hack</h1>
+
+                        <p>Don t spend hours designing and building your landing page. Use a tool like https://www.daisylanding.com. With this app, I can get 95% of my landing page built in minutes. Plus, it is already responsive.</p>
+                        <div>
+                            <span className="">By lublubxt 3 days ago</span>
+                            <button><span>🔝</span></button>
+                        </div>
+                    </div>
                     
                 </div>
                 <div className={styles.backgroundImg}>

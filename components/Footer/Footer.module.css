@@ -1,0 +1,67 @@
+
+
+
+.footer {
+    background-color: #ffffff; 
+    color: #000000; 
+    padding: 20px 0; 
+    text-align: center;
+    
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer .socialLinks {
+    list-style: none; 
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+}
+
+.footer .socialLinks li {
+    display: inline-block;
+}
+
+.footer .socialLinks a {
+    color: #fff; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer .socialLinks a:hover {
+    color: #ff6347; 
+}
+
+.footer .linkedin{
+    background-image: url("../assets/linkedin.png");
+    width: 65px;
+    height: 65px;
+    display: flex;
+    background-size: cover;
+}
+
+.footer .github {
+    background-image: url("../assets/github.png");
+    width: 65px;
+    height: 65px;
+    display: flex;
+    background-size: cover;
+}
+
+.footer .email {
+    background-image: url("../assets/gmail.png");
+    width: 65px;
+    height: 65px;
+    display: flex;
+    background-size: cover;
+}

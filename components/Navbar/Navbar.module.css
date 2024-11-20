@@ -23,6 +23,7 @@
     list-style: none;
     gap: 77px;
     margin-right: 77px;
+    align-items: center;
   }
 
  
@@ -37,3 +38,17 @@
     color: #555555;
   }
   
+  .navbarLinks button{
+    background: none;
+    background-color: #FCB03B;
+    border: none;
+    padding: 10px;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    border-radius: 12px ;
+  }
+
+  .navbarLinks li button i{
+    font-weight:bolder;
+  }

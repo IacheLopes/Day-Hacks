@@ -19,7 +19,7 @@ main{
 
 .topHacks{
     flex: 1;
-
+    padding: 0 0 84px 0;
 }
 
 .backgroundImg{
@@ -67,7 +67,7 @@ main{
 .hacksContainer div>button>span{
 
     font-size: 30px;
-    font-color: black;
+    color: black;
 
 }
 
