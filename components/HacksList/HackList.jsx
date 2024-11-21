@@ -12,7 +12,7 @@ function HackList (){
                         <p>Don t spend hours designing and building your landing page. Use a tool like https://www.daisylanding.com. With this app, I can get 95% of my landing page built in minutes. Plus, it is already responsive.</p>
                         <div>
                             <span className="">By lublubxt 3 days ago</span>
-                            <button><span>🔝</span></button>
+                            <button><span><img src="../../assets/like.svg" alt="like" /></span></button>
                         </div>
                     </div>
 
@@ -22,7 +22,7 @@ function HackList (){
                         <p>Don t spend hours designing and building your landing page. Use a tool like https://www.daisylanding.com. With this app, I can get 95% of my landing page built in minutes. Plus, it is already responsive.</p>
                         <div>
                             <span className="">By lublubxt 3 days ago</span>
-                            <button><span>🔝</span></button>
+                            <button><span><img src="../../assets/liked.svg" alt="like" /></span></button>
                         </div>
                     </div>
 
@@ -32,7 +32,7 @@ function HackList (){
                         <p>Don t spend hours designing and building your landing page. Use a tool like https://www.daisylanding.com. With this app, I can get 95% of my landing page built in minutes. Plus, it is already responsive.</p>
                         <div>
                             <span className="">By lublubxt 3 days ago</span>
-                            <button><span>🔝</span></button>
+                            <button><span><img src="../../assets/like.svg" alt="like" /></span></button>
                         </div>
                     </div>
                     

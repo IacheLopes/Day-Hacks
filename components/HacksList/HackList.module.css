@@ -71,3 +71,10 @@ main{
 
 }
 
+.hacksContainer div>button>span>img{
+
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+}
+
