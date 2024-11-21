@@ -15,7 +15,7 @@ function Navbar () {
                         <Link to="/">Contato</Link>
                     </li>
                     <li>
-                        <button><Link to="/"><i className="fa-solid fa-plus"></i> MY HACK</Link></button>    
+                        <button><Link to="/create-hack"><i className="fa-solid fa-plus"></i> MY HACK</Link></button>    
                     </li>
                 </ul>
 

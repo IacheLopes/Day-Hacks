@@ -3,8 +3,59 @@
     --button-color: #FCB03B;
 }
 
+
+
 main{
+    position: relative;
     min-height: 100vh;
     background-color: var(--background-color);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.backgroundImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.styleForm{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form {
+    position: relative;
+    top: 57px;
+    background-color: white; 
+    min-width: 558px;
+    min-height: 364px;
+    border-radius: 37px; 
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.8); 
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.username{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+form button{
+    margin-top: 130px;
 }
