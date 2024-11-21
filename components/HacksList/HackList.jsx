@@ -1,4 +1,8 @@
 import styles from './HackList.module.css';
+import likedIcon from '../../assets/liked.svg';
+import likeIcon from '../../assets/like.svg';
+
+
 
 function HackList (){
 
@@ -12,7 +16,7 @@ function HackList (){
                         <p>Don t spend hours designing and building your landing page. Use a tool like https://www.daisylanding.com. With this app, I can get 95% of my landing page built in minutes. Plus, it is already responsive.</p>
                         <div>
                             <span className="">By lublubxt 3 days ago</span>
-                            <button><span><img src="../../assets/like.svg" alt="like" /></span></button>
+                            <button><span><img src={likeIcon} alt="like" /></span></button>
                         </div>
                     </div>
 
@@ -22,7 +26,7 @@ function HackList (){
                         <p>Don t spend hours designing and building your landing page. Use a tool like https://www.daisylanding.com. With this app, I can get 95% of my landing page built in minutes. Plus, it is already responsive.</p>
                         <div>
                             <span className="">By lublubxt 3 days ago</span>
-                            <button><span><img src="../../assets/liked.svg" alt="like" /></span></button>
+                            <button><span><img src={likedIcon} alt="like" /></span></button>
                         </div>
                     </div>
 
@@ -32,7 +36,7 @@ function HackList (){
                         <p>Don t spend hours designing and building your landing page. Use a tool like https://www.daisylanding.com. With this app, I can get 95% of my landing page built in minutes. Plus, it is already responsive.</p>
                         <div>
                             <span className="">By lublubxt 3 days ago</span>
-                            <button><span><img src="../../assets/like.svg" alt="like" /></span></button>
+                            <button><span><img src={likeIcon} alt="like" /></span></button>
                         </div>
                     </div>
                     
