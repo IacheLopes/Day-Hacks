@@ -13,10 +13,10 @@ function HackList (){
                     <div className={styles.hacksContainer}>
                         <h1>Top 1 hack</h1>
 
-                        <p>Don t spend hours designing and building your landing page. Use a tool like https://www.daisylanding.com. With this app, I can get 95% of my landing page built in minutes. Plus, it is already responsive.</p>
+                        <p>Criar algo significativo não precisa ser complicado ou demorado. Com as ferramentas certas e um pouco de dedicação, é possível alcançar resultados incríveis em menos tempo. O segredo está em manter o foco e usar recursos 86123546312461234123578621458</p>
                         <div>
                             <span className="">By lublubxt 3 days ago</span>
-                            <button><span><img src={likeIcon} alt="like" /></span></button>
+                            <button><span><likeIcon /></span></button>
                         </div>
                     </div>
 
@@ -40,9 +40,6 @@ function HackList (){
                         </div>
                     </div>
                     
-                </div>
-                <div className={styles.backgroundImg}>
-                    <img src="../../assets/background-lights.png" alt="backgroundLights" />
                 </div>
             </div> 
 

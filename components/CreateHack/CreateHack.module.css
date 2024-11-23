@@ -1,61 +1,103 @@
+
+
 :root{
     --background-color: #AE29FF;
     --button-color: #FCB03B;
 }
 
-
-
-main{
-    position: relative;
-    min-height: 100vh;
+body.createHack{
+    background-image: url('../../assets/create-hack-bg.png');
     background-color: var(--background-color);
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1400px;
 }
 
-.backgroundImg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 0;
-    display: flex;
-    justify-content: center;
+main{
+    min-height: 100vh;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .styleForm{
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-
+    align-items: center;    
 }
 
 .form {
-    position: relative;
-    top: 57px;
+    margin-top: -4.2%;
     background-color: white; 
-    min-width: 558px;
+    width: 558px;
+    height: 364px;
     min-height: 364px;
     border-radius: 37px; 
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.8); 
     padding: 30px;
     display: flex;
     flex-direction: column;
+    font-size: 19px;
+    font-family: 'Inter';
 }
 
 .username{
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
 }
 
 .message{
-    margin-top: 50px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
 }
 
-form button{
-    margin-top: 130px;
+
+.inputStyle {
+    margin-top: 8px;
+    width: 100%; /* Ajusta o tamanho ao container */
+    padding: 12px; /* Espaçamento interno */
+    margin-bottom: 15px; /* Espaçamento entre os inputs */
+    font-size: 16px; /* Tamanho da fonte */
+    border: 2px solid #ccc; /* Borda com cor padrão */
+    border-radius: 8px; /* Arredonda as bordas */
+    outline: none; /* Remove a borda azul padrão */
+    box-sizing: border-box; /* Inclui padding no cálculo da largura */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Animações */
+}
+
+.inputStyle:focus {
+    border-color: #AE29FF; /* Cor da borda ao focar */
+    box-shadow: 0 0 8px rgba(174, 41, 255, 0.5); /* Destaque ao focar */
+}
+
+.inputStyle::placeholder {
+    color: #aaa; /* Cor do placeholder */
+    font-style: italic; /* Opcional: estilo do texto do placeholder */
+}
+
+.message textarea{
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.submitBtn{
+    align-self: center;
+    margin-top: px;
+    font-family: "M PLUS Rounded 1c";
+    padding: 0 40px 0 40px;
+    background-color: var(--button-color);
+    font-size: 24px;
+    font-weight:900;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    
+
+.form div{
+    display: flex;
+    justify-content: center;
 }
